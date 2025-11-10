@@ -20,7 +20,7 @@ while True:
 
     
     if turn % 2 == 0:
-        input("🎲 Press Enter to roll the dice for Player...")
+        input("🎲 Press Enter to roll the dice for Player....")
         roll = random.randint(1, 6)
         print(f"Player rolled: {roll}")
 
@@ -112,4 +112,5 @@ while True:
                 if roll == 6:
                     print("🔥 Computer gets another turn!")
                     turn -= 1
+
 
