@@ -1,7 +1,7 @@
 import random
 
 
-snake = {17: 7, 32: 15, 54: 34, 62: 45, 92: 31}
+snake = {17: 7, 32: 15, 54: 34, 62: 45, 92: 30}
 ladder = {5: 25, 21: 42, 51: 67, 32: 90, 45: 88}
 
 
@@ -112,6 +112,7 @@ while True:
                 if roll == 6:
                     print("🔥 Computer gets another turn!")
                     turn -= 1
+
 
 
 
