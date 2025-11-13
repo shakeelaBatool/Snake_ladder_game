@@ -16,7 +16,7 @@ com_started = False
 turn = 0
 while True:
     turn += 1
-    print("\n------------------------------------")
+    print("\n-------------------------------------")
 
     
     if turn % 2 == 0:
@@ -112,6 +112,7 @@ while True:
                 if roll == 6:
                     print("🔥 Computer gets another turn!")
                     turn -= 1
+
 
 
 
